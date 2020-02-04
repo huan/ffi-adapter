@@ -4,7 +4,7 @@
 [![NPM Version](https://badge.fury.io/js/ffi-adapter.svg)](https://www.npmjs.com/package/ffi-adapter)
 [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-blue.svg)](https://www.typescriptlang.org/)
 
-![Rainbow Colors Electronic](docs/images/rainbow.png)
+![Rainbow Colors Electronic](https://huan.github.io/ffi-adapter/images/rainbow.png)
 
 > Credit: [Rainbow Colors Electronic](https://www.needpix.com/photo/19769/rainbow-colors-electronic-diodes-electronics-lights-curve-colorful-spectrum)
 
