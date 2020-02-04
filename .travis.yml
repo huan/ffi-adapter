@@ -4,7 +4,7 @@ os:
 
 language: node_js
 node_js:
-  - '12'
+  # - '12'  Not support until https://github.com/node-ffi/node-ffi/pull/544 solved
   - '11'
   - '10'
 
