@@ -13,7 +13,9 @@ cache:
     - node_modules
 
 before_script:
+  - choco install -y visualstudio2017community visualstudio2017-workload-nativecrossplat
   - cl.exe //D_USRDLL //D_WINDLL "tests/fixtures/library/factorial.c" //link //DLL //OUT:"tests/fixtures/library/libfactorial.dll"
+  # - if [[ "$TRAVIS_OS_NAME" == "windows" ]]; then choco install -y visualstudio2017community visualstudio2017-workload-nativecrossplat; fi
   # - if [ "$TRAVIS_OS_NAME" == 'windows' ]; cl.exe /D_USRDLL /D_WINDLL tests/fixtures/library/factorial.c /link /DLL /OUT:tests/fixtures/library/libfactorial.dll ; fi
 
 script:
