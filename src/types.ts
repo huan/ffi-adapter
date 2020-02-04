@@ -1,4 +1,4 @@
-import ref from 'ref'
+// import ref from 'ref'
 
 /**
  * ffi.Library types
@@ -8,7 +8,7 @@ export type FfiType = 'void'
                     | 'int' | 'int64' | 'uint64'
                     | 'string'
                     | 'pointer'
-                    | ref.Type
+                    // | ref.Type
 
 /**
  * Metadata design:returntype
