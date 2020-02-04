@@ -1,20 +1,26 @@
 # ffi-adapter
 
+[![Build Status](https://travis-ci.com/huan/ffi-adapter.svg?branch=master)](https://travis-ci.com/huan/ffi-adapter)
+[![NPM Version](https://badge.fury.io/js/ffi-adapter.svg)](https://www.npmjs.com/package/ffi-adapter)
+[![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-blue.svg)](https://www.typescriptlang.org/)
+
+![Rainbow Colors Electronic](docs/images/rainbow.png)
+
+> Credit: [Rainbow Colors Electronic](https://www.needpix.com/photo/19769/rainbow-colors-electronic-diodes-electronics-lights-curve-colorful-spectrum)
+
 Foreign Function Interface Adapter for TypeScript
+
+## Features
+
+1. Binding shared library(`.dll`/`.so`/`.dylib`) to a TypeScript class by decorators.
+1. Support `async` mode when a class method defined with a return type of `Promise`.
+1. Supports Windows(`.dll`), Linux(`.so`), and MacOS(`.dylib`).
+1. The class will be forced singleton.
 
 ## Requirement
 
 1. Node.js v10 or v11 for [ffi](https://github.com/node-ffi) (neither v12 nor v13, see [#554](https://github.com/node-ffi/node-ffi/issues/554))
 1. TypeScript with `--target ES5`, `--experimentalDecorators`, and `--emitDecoratorMetadata` options on.
-
-## Features
-
-1. Binding shared library(`.dll`/`.so`/`.dylib`) to a TypeScript class by decorators.
-    1. `@LIBRARY()` to decorate the class with library file
-    1. `@API()` to decorate the class methods with library functions
-1. Support `async` mode when a class method defined with a return type of `Promise`.
-1. Support adapting on all platforms: Windows(`.dll`), Linux(`.so`), and MacOS(`.dylib`).
-1. The decorated class will be forced to be singleton.
 
 ## Example
 
@@ -24,7 +30,7 @@ For example, say:
 1. the library has a function `uint64_t factorial(int)`
 1. We want to use `factorial()` in TypeScript.
 
-Talk is cheap, show me the code:
+### Talk is cheap, show me the code
 
 ```ts
 import {
@@ -166,7 +172,7 @@ console.log('factorial(5) =', lib.factorial(5))
 // Output: factorial(5) = 120
 ```
 
-That's it! Use it is that easy!
+That's it! super clean, beautiful, and easy to maintain!
 
 ## Resources
 
@@ -187,7 +193,7 @@ That's it! Use it is that easy!
 
 ### master
 
-### v0.2
+### v0.2 Feb 4, 2020
 
 The fist version.
 
