@@ -12,10 +12,8 @@ cache:
   directories:
     - node_modules
 
-# https://travis-ci.community/t/using-cl-exe-for-32-and-64-bits/1905/4
 before_script:
-  - /c/Program Files (x86)/Microsoft Visual Studio 14.0/VC/vcvarsall.bat
-  - cl.exe //D_USRDLL //D_WINDLL "tests/fixtures/library/factorial.c" //link //DLL //OUT:"tests/fixtures/library/libfactorial.dll"
+  - scripts/build-dll.bat
   # - if [[ "$TRAVIS_OS_NAME" == "windows" ]]; then choco install -y visualstudio2017community visualstudio2017-workload-nativecrossplat; fi
   # - if [ "$TRAVIS_OS_NAME" == 'windows' ]; cl.exe /D_USRDLL /D_WINDLL tests/fixtures/library/factorial.c /link /DLL /OUT:tests/fixtures/library/libfactorial.dll ; fi
 
