@@ -3,13 +3,13 @@
  *
  * To compile `libfactorial.dll` on Windows (http://stackoverflow.com/a/2220213):
  *
- * ``` bash
- * $ cl.exe /D_USRDLL /D_WINDLL factorial.c /link /DLL /OUT:libfactorial.dll
+ * ```sh
+ * cl.exe /D_USRDLL /D_WINDLL factorial.c /link /DLL /OUT:libfactorial.dll
  * ```
  *
  * To run the example:
  *
- * ``` bash
+ * ```bash
  * $ node factorial.js 35
  * Your output: 6399018521010896896
  * ```

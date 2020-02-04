@@ -15,9 +15,10 @@ npm init -y
 npm install *-*.*.*.tgz \
   @chatie/tsconfig
 
+
 ./node_modules/.bin/tsc \
-  --target esnext \
-  --lib esnext,dom \
+  --target es5 \
+  --lib esnext \
   --noEmitOnError \
   --noImplicitAny \
   --experimentalDecorators \

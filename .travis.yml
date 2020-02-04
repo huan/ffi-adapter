@@ -12,16 +12,15 @@ cache:
   directories:
     - node_modules
 
+before_script:
+  - if [[ "$TRAVIS_OS_NAME" == "windows" ]]; then scripts/build-dll.bat; fi
+
 script:
   - echo $TRAVIS_OS_NAME
   - node --version
   - npm --version
   - echo "Testing started ..."
   - npm test
-
-after_success:
-  - if [ "$TRAVIS_OS_NAME" == 'osx' ]; then npm run coverage; fi
-
 
 stages:
   - test

@@ -1,6 +1,6 @@
 {
   "name": "ffi-adapter",
-  "version": "0.0.3",
+  "version": "0.2.1",
   "description": "Foreign Function Interface Adapter Decorator for TypeScript",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
@@ -57,6 +57,13 @@
     "access": "public",
     "tag": "next"
   },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "package.json",
+    "dist/src",
+    "src"
+  ],
   "git": {
     "scripts": {
       "pre-push": "npx git-scripts-pre-push"
