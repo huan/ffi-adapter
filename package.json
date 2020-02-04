@@ -57,6 +57,13 @@
     "access": "public",
     "tag": "next"
   },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "package.json",
+    "dist/src",
+    "src"
+  ],
   "git": {
     "scripts": {
       "pre-push": "npx git-scripts-pre-push"
