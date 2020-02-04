@@ -1,5 +1,4 @@
 import path from 'path'
-import fs from 'fs'
 
 import {
   log,
@@ -90,10 +89,8 @@ function backendFinalize (
     throw new Error('ffi-adapter: we must specify library file in @LIBRARY(libFile) or in the first arg of constructor(libFile)!')
   }
 
-  libraryFile = path.resolve(libraryFile)
-  if (!fs.existsSync(libraryFile)) {
-    throw new Error(`Library file not found: ${libraryFile}`)
-  }
-
-  backend.finalize(libraryId, libraryFile)
+  backend.finalize(
+    libraryId,
+    path.resolve(libraryFile),
+  )
 }
