@@ -4,8 +4,7 @@ Foreign Function Interface Adapter for TypeScript
 
 ## Requirement
 
-1. Node.js v11 for [ffi](https://github.com/node-ffi) (neither v12 nor v13, see [#554](https://github.com/node-ffi/node-ffi/pull/544))
-
+1. Node.js v11 for [ffi](https://github.com/node-ffi) (neither v12 nor v13, see [#554](https://github.com/node-ffi/node-ffi/issues/554))
 
 ## Features
 
@@ -123,13 +122,9 @@ TODO: write a unit test for this to make sure the behavior is expected.
 
 ## AUTHOR
 
-<!-- markdownlint-disable MD033 -->
+[Huan LI](https://github.com/huan) ([李卓桓](http://linkedin.com/in/zixia)) zixia@zixia.net
 
-Huan LI \<zixia@zixia.net\> (<http://linkedin.com/in/zixia>)
-
-<a href="http://stackoverflow.com/users/1123955/zixia">
-  <img src="http://stackoverflow.com/users/flair/1123955.png" width="208" height="58" alt="profile for zixia at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for zixia at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
-</a>
+[![Profile of Huan LI (李卓桓) on StackOverflow](https://stackexchange.com/users/flair/265499.png)](https://stackexchange.com/users/265499)
 
 ## COPYRIGHT & LICENSE
 
