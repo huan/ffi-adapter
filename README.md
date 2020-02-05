@@ -8,7 +8,7 @@
 
 > Credit: [Rainbow Colors Electronic](https://www.needpix.com/photo/19769/rainbow-colors-electronic-diodes-electronics-lights-curve-colorful-spectrum)
 
-Foreign Function Interface Adapter for TypeScript
+Foreign Function Interface Adapter Powered by Decorator & TypeScript
 
 ## Features
 
