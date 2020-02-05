@@ -19,12 +19,12 @@ Foreign Function Interface Adapter Powered by Decorator & TypeScript
 
 ## Requirement
 
-1. Node.js v10 or v11 for [ffi](https://github.com/node-ffi) (neither v12 nor v13, see [#554](https://github.com/node-ffi/node-ffi/issues/554))
+1. Node.js v10 or v11 for [ffi](https://github.com/node-ffi/node-ffi) (neither v12 nor v13, see [#554](https://github.com/node-ffi/node-ffi/issues/554))
 1. TypeScript with `--target ES5`, `--experimentalDecorators`, and `--emitDecoratorMetadata` options on.
 
 ## Example
 
-For example, say:
+Background:
 
 1. We have a shared library file `libfactorial.so` (`.dll`/`.dylib` as well)
 1. the library has a function `uint64_t factorial(int)`
@@ -172,7 +172,7 @@ console.log('factorial(5) =', lib.factorial(5))
 // Output: factorial(5) = 120
 ```
 
-That's it! super clean, beautiful, and easy to maintain!
+You will agree with me that it's super clean, beautiful, and easy to maintain! ;-)
 
 ## Resources
 
@@ -197,7 +197,7 @@ That's it! super clean, beautiful, and easy to maintain!
 
 The fist version.
 
-1. Use `@LIBRARY()`, `@API()`, and `RETURN()` to bind a shared library to a TypeScript Class.
+1. Use `@LIBRARY()`, `@API()`, and `RETURN()` as decorators to bind a shared library to a TypeScript Class.
 
 ## Author
 
