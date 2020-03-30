@@ -1,7 +1,7 @@
 # ffi-adapter
 
 [![Build Status](https://travis-ci.com/huan/ffi-adapter.svg?branch=master)](https://travis-ci.com/huan/ffi-adapter)
-[![NPM Version](https://badge.fury.io/js/ffi-adapter.svg)](https://www.npmjs.com/package/ffi-adapter)
+[![NPM Version](https://img.shields.io/npm/v/ffi-adapter?color=brightgreen)](https://www.npmjs.com/package/ffi-adapter)
 [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-blue.svg)](https://www.typescriptlang.org/)
 
 ![Rainbow Colors Electronic](https://huan.github.io/ffi-adapter/images/rainbow.png)
@@ -195,7 +195,7 @@ You will agree with me that it's super clean, beautiful, and easy to maintain! ;
 
 ### v0.2 Feb 4, 2020
 
-The fist version.
+The first version.
 
 1. Use `@LIBRARY()`, `@API()`, and `RETURN()` as decorators to bind a shared library to a TypeScript Class.
 
