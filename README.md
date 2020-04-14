@@ -174,6 +174,10 @@ console.log('factorial(5) =', lib.factorial(5))
 
 You will agree with me that it's super clean, beautiful, and easy to maintain! ;-)
 
+## Similiar Projects
+
+- [A foreign function interface (FFI) for Node.js, N-API style](https://github.com/node-ffi-napi/node-ffi-napi)
+
 ## Resources
 
 - [TypeScript - Class Decorators](https://www.typescriptlang.org/docs/handbook/decorators.html#class-decorators)
