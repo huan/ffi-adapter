@@ -6,7 +6,7 @@
 
 ![Rainbow Colors Electronic](https://huan.github.io/ffi-adapter/images/rainbow.png)
 
-> Credit: [Rainbow Colors Electronic](https://www.needpix.com/photo/19769/rainbow-colors-electronic-diodes-electronics-lights-curve-colorful-spectrum)
+> Image suorce: [Rainbow Colors Electronic](https://www.needpix.com/photo/19769/rainbow-colors-electronic-diodes-electronics-lights-curve-colorful-spectrum)
 
 Foreign Function Interface Adapter Powered by Decorator & TypeScript
 
