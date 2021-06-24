@@ -11,7 +11,7 @@ import {
   LIBRARY,
   API,
   RETURN,
-}                   from '../src'
+}                   from '../src/mod'
 
 import {
   Backend,

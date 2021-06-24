@@ -2,8 +2,8 @@
   "name": "ffi-adapter",
   "version": "0.2.3",
   "description": "Foreign Function Interface Adapter Decorator for TypeScript",
-  "main": "dist/src/index.js",
-  "types": "dist/src/index.d.ts",
+  "main": "dist/src/mod.js",
+  "types": "dist/src/mod.d.ts",
   "scripts": {
     "build": "tsc",
     "pack": "npm pack",
