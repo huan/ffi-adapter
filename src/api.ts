@@ -55,7 +55,7 @@ export function API (
       ffiParamTypeList.join(','),
     )
 
-    const ffiLibFuncConfig = [ ffiReturnType, [...ffiParamTypeList] ] as FfiLibraryFuncConfig
+    const ffiLibFuncConfig = [ffiReturnType, [...ffiParamTypeList]] as FfiLibraryFuncConfig
     backend.config(key, ffiLibFuncConfig)
 
     replaceMethod(target, key, descriptor, async)
@@ -72,7 +72,7 @@ export function replaceMethod (
 ) {
   const targetName = target.name || target.constructor.name
 
-  log.verbose('ffi-adapter', `replaceMethod(%s, %s, %s, %s)`,
+  log.verbose('ffi-adapter', 'replaceMethod(%s, %s, %s, %s)',
     targetName,
     method,
     JSON.stringify(descriptor),

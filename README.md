@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.com/huan/ffi-adapter.svg?branch=master)](https://travis-ci.com/huan/ffi-adapter)
 [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-blue.svg)](https://www.typescriptlang.org/)
 
-![Rainbow Colors Electronic](https://huan.github.io/ffi-adapter/images/rainbow.png)
+![Rainbow Colors Electronic](docs/images/rainbow.png)
 
 > Image suorce: [Rainbow Colors Electronic](https://www.needpix.com/photo/19769/rainbow-colors-electronic-diodes-electronics-lights-curve-colorful-spectrum)
 
