@@ -31,7 +31,7 @@ test('FFI with libfactorial.{dll,so}', async (t) => {
   const libfactorial = ffi.Library(
     path.join(__dirname, 'fixtures', 'library', LIBFACTORIAL),
     {
-      'factorial': [ 'uint64', [ 'int' ] ],
+      factorial: ['uint64', ['int']],
     },
   )
 
