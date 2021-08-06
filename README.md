@@ -197,7 +197,13 @@ You will agree with me that it's super clean, beautiful, and easy to maintain! ;
 
 ### master
 
-### v0.2 Feb 4, 2020
+### v0.4 (Aug 6, 2021)
+
+Support all Node.js versions (10/11/12/13/14/15/16) now!
+
+1. Upgrade dependency to use [ffi-napi](https://npmjs.com/package/ffi-napi) instead of [ffi](https://npmjs.com/package/ffi) for support newer Node.js versions 12+ and N-API. ([#9](https://github.com/huan/ffi-adapter/issues/9))
+
+### v0.2 (Feb 4, 2020)
 
 The first version.
 

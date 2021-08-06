@@ -4,8 +4,7 @@
 
 import { test }  from 'tstest'
 
-import path from 'path'
-import ffi from 'ffi'
+import ffi from 'ffi-napi'
 
 import {
   LIBRARY,
@@ -24,12 +23,11 @@ import {
 const backend = new Backend()
 
 test('FFI with libfactorial.{dll,so}', async (t) => {
-  const LIBFACTORIAL = 'libfactorial'
   const INPUT_NUMBER = 5
   const EXPECTED_RESULT = 120
 
   const libfactorial = ffi.Library(
-    path.join(__dirname, 'fixtures', 'library', LIBFACTORIAL),
+    FIXTURE_LIB_FACTORIAL_FILE,
     {
       factorial: ['uint64', ['int']],
     },
