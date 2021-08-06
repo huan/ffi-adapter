@@ -195,9 +195,11 @@ You will agree with me that it's super clean, beautiful, and easy to maintain! ;
 
 ## History
 
-### master
+### master v0.3 (Aug 6, 2021)
 
-### v0.2 Feb 4, 2020
+Upgrade dependency to use [ffi-napi](https://npmjs.com/package/ffi-napi) instead of [ffi](https://npmjs.com/package/ffi) for support newer Node.js versions 12/14(/16?).
+
+### v0.2 (Feb 4, 2020)
 
 The first version.
 

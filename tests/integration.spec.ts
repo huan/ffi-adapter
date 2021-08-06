@@ -5,7 +5,7 @@
 import { test }  from 'tstest'
 
 import path from 'path'
-import ffi from 'ffi'
+import ffi from 'ffi-napi'
 
 import {
   LIBRARY,
