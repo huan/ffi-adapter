@@ -1,6 +1,6 @@
 {
   "name": "ffi-adapter",
-  "version": "0.4.1",
+  "version": "0.4.4",
   "description": "Foreign Function Interface Adapter Decorator for TypeScript",
   "main": "dist/src/mod.js",
   "types": "dist/src/mod.d.ts",
@@ -37,19 +37,19 @@
   },
   "homepage": "https://github.com/huan/ffi-adapter#readme",
   "dependencies": {
-    "brolog": "^1.8.3",
+    "brolog": "^1.12.4",
     "ffi-napi": "^4.0.3",
     "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
-    "@chatie/eslint-config": "^0.12.1",
+    "@chatie/eslint-config": "^0.12.4",
     "@chatie/git-scripts": "^0.6.2",
     "@chatie/semver": "^0.4.7",
-    "@chatie/tsconfig": "^0.10.1",
+    "@chatie/tsconfig": "^0.16.2",
     "@types/ffi-napi": "^4.0.4",
-    "pkg-jq": "^0.2.4",
-    "shx": "^0.3.2",
-    "tstest": "^0.4.9"
+    "pkg-jq": "^0.2.11",
+    "shx": "^0.3.3",
+    "tstest": "^0.4.10"
   },
   "publishConfig": {
     "access": "public",
