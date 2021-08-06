@@ -1,6 +1,7 @@
 # ffi-adapter
 
 [![NPM Version](https://img.shields.io/npm/v/ffi-adapter?color=brightgreen)](https://www.npmjs.com/package/ffi-adapter)
+[![npm (tag)](https://img.shields.io/npm/v/ffi-adapter/next.svg)](https://www.npmjs.com/package/ffi-adapter?activeTab=versions)
 [![Build Status](https://travis-ci.com/huan/ffi-adapter.svg?branch=master)](https://travis-ci.com/huan/ffi-adapter)
 [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-blue.svg)](https://www.typescriptlang.org/)
 
