@@ -45,7 +45,7 @@
     "@chatie/eslint-config": "^0.12.1",
     "@chatie/git-scripts": "^0.6.2",
     "@chatie/semver": "^0.4.7",
-    "@chatie/tsconfig": "^0.10.1",
+    "@chatie/tsconfig": "^0.16.2",
     "@types/ffi-napi": "^4.0.4",
     "pkg-jq": "^0.2.4",
     "shx": "^0.3.2",
