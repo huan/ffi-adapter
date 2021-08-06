@@ -191,7 +191,7 @@ You will agree with me that it's super clean, beautiful, and easy to maintain! ;
 
 ## Knowned Issues
 
-1. Node.js v12/13 is not supported yet. (see [#554](https://github.com/node-ffi/node-ffi/issues/554))
+1. ~~Node.js v12/13 is not supported yet. (see [#554](https://github.com/node-ffi/node-ffi/issues/554))~~ `ffi-adapter@0.4` solve this problem. ([#9](https://github.com/huan/ffi-adapter/issues/9))
 
 ## History
 
@@ -201,7 +201,7 @@ You will agree with me that it's super clean, beautiful, and easy to maintain! ;
 
 Support all Node.js versions (10/11/12/13/14/15/16) now!
 
-1. Upgrade dependency to use [ffi-napi](https://npmjs.com/package/ffi-napi) instead of [ffi](https://npmjs.com/package/ffi) for support newer Node.js versions 12+ and N-API. ([#9](https://github.com/huan/ffi-adapter/issues/9))
+1. Upgrade dependency from [ffi](https://npmjs.com/package/ffi) to [ffi-napi](https://npmjs.com/package/ffi-napi) for supporting all newer Node.js versions with N-API. ([#9](https://github.com/huan/ffi-adapter/issues/9))
 
 ### v0.2 (Feb 4, 2020)
 
